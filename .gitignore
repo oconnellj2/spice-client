@@ -282,6 +282,7 @@ FakesAssemblies/
 *.GhostDoc.xml
 
 # Node.js Tools for Visual Studio
+/build
 .ntvs_analysis.dat
 node_modules/
 
@@ -377,6 +378,7 @@ MigrationBackup/
 FodyWeavers.xsd
 
 # VS Code files for those working on multiple tools
+/.vscode
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
@@ -396,3 +398,14 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
